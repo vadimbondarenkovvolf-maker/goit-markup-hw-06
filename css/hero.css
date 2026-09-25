@@ -7,7 +7,7 @@
     ),
     image-set(
       url("../images/hero-bg-mobile.jpg") 1x,
-      url("../images/hero-bg-mobile@2x.jpg") 2x
+      url("../images/hero-bg-tablet@2x\ .jpg") 2x
     );
 
   background-repeat: no-repeat;
@@ -91,5 +91,8 @@
         url("../images/hero-bg-desktop@2x.jpg") 2x
       );
     padding: 188px 0;
+  }
+  .button {
+    margin-top: 48px;
   }
 }

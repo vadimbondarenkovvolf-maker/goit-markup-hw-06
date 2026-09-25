@@ -97,8 +97,9 @@ a.nav-menu {
 
 .ul-contacts {
   display: flex;
-  gap: 40px;
-  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
 }
 
 a.contacts {
@@ -125,9 +126,9 @@ a.contacts {
     padding: 16px 0;
   }
 
-  .ul-menu {
-    flex-grow: 1;
-  }
+  .header nav {
+  flex-grow: 1;
+}
   .header .contacts {
     font-size: 12px;
     line-height: 1.17;
@@ -144,8 +145,15 @@ a.contacts {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-
+.header .logo {
+    margin-right: 76px;
+  }
   a.contacts {
     padding: 24px 0;
+  }
+  .ul-contacts {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
   }
 }

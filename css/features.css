@@ -45,6 +45,9 @@
   .features-ul > li {
     width: calc((100% - 24px) / 2);
   }
+  .features-ul .title {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1158px) {
   .features {
@@ -59,7 +62,9 @@
   .features-ul > li {
     width: calc((100% - 72px) / 4);
   }
-
+.features-ul .text {
+    font-weight: 400;
+  }
   .decoration {
     width: 100%;
     height: 112px;

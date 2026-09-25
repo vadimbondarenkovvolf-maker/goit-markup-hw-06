@@ -96,7 +96,9 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.mobile-menu-contact.phone {
+  color: #4d5ae5;
+}
 .mobile-menu-contact:hover,
 .mobile-menu-contact:focus {
   color: #404bbf;
