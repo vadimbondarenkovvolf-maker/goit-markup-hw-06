@@ -29,8 +29,8 @@
   top: 50%;
   left: 50%;
 
-  width: calc(100% - 32px);
-  max-width: 408px;
+   width: 288px;
+  max-width: calc(100% - 32px);
 
   max-height: calc(100% - 32px);
   overflow-y: auto;

@@ -18,6 +18,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 16px 0;
 }
 
 .header .accent {
@@ -120,10 +121,31 @@ a.contacts {
   }
 
   .header .logo {
-    margin-right: 76px;
+    margin-right: 120px;
+    padding: 16px 0;
   }
 
   .ul-menu {
     flex-grow: 1;
+  }
+  .header .contacts {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  a.contacts {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .header .contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  a.contacts {
+    padding: 24px 0;
   }
 }

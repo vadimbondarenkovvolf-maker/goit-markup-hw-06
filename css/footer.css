@@ -14,11 +14,13 @@
   max-width: 288px;
   text-align: center;
 }
+.left .text {
+  text-align: left;
+}
 
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
-
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -217,7 +219,7 @@
 
   .subscribe {
     width: auto;
-    margin-left: 80px;
+    margin-left: auto;
   }
 
   .form {
