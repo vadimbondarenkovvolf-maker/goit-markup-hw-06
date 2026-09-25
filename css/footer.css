@@ -1,169 +1,226 @@
-.footer .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.33333;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    
-}
-.footer .accent {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.33333;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-}
-.footer .text {
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    max-width: 264px;
-    margin-top: 16px;
-}
 .footer {
-    background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding: 96px 0;
+  background-color: #2e2f42;
 }
-.left {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 16px;
-    margin-right: 120px;
-}
+
 .container-footer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.left {
+  width: 100%;
+  max-width: 288px;
+  text-align: center;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer .accent {
+  color: #f4f4fd;
+}
+
+.left .text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
 .socials-footer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 16px;
-    width: 208px;
-    height: 80px;
+  margin-top: 72px;
+  text-align: center;
 }
-.ttext {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
+
+.ttext,
+.text-p {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
+
 .social-list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 16px;
-    width: 208px;
-    height: 40px;
+  display: flex;
+  gap: 16px;
 }
+
 .link-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 0;
-    border-radius: 20px;
-    width: 40px;
-    height: 40px;
-    background: #4d5ae5;
-    color: #fff;
-    transition: background-color 250ms;
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background-color: #4d5ae5;
+
+  transition: background-color 250ms ease-in-out;
 }
+
 .link-footer:hover,
 .link-footer:focus {
-    background-color: #31d0aa;
+  background-color: #31d0aa;
 }
+
+.link-footer .link-icon {
+  fill: #f4f4fd;
+}
+
 .subscribe {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 16px;
-    margin-right: 15px;
-    margin-left: auto;
+  width: 100%;
+  max-width: 288px;
+  margin-top: 72px;
 }
+
+.text-p {
+  text-align: center;
+}
+
 .form {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 24px;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
+
 .footer-input {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    padding: 8px 16px;
-    width: 264px;
-    height: 40px;
-    background-color: #2e2f42;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #fff;
-    transition: border-color 250ms ease-in-out;
+  width: 100%;
+  height: 40px;
+
+  padding: 8px 16px;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  background-color: transparent;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
-.footer-input:focus {
-    border-color: #31d0aa;
+
+.footer-input::placeholder {
+  color: #fff;
 }
 
 .button-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 16px;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 24px;
-    width: 165px;
-    height: 40px;
-    max-width: 165px;
-    background-color: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    transition: background-color 250ms ease-in-out;
+  min-width: 165px;
+  height: 40px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: #4d5ae5;
+  color: #fff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  transition: background-color 250ms ease-in-out;
 }
-.footer-input::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
+
 .button-footer:hover,
 .button-footer:focus {
-    background-color: #31d0aa;
+  background-color: #404bbf;
 }
-.text-p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
+@media screen and (min-width: 768px) {
+  .container-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 24px;
+    row-gap: 72px;
+
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .left {
+    width: 264px;
+    max-width: none;
+    text-align: left;
+  }
+
+  .socials-footer {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .subscribe {
+    width: 100%;
+    max-width: none;
+    margin-top: 0;
+  }
+
+  .text-p {
+    text-align: left;
+  }
+
+  .form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .button-footer {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .container-footer {
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .left {
+    width: 264px;
+  }
+
+  .socials-footer {
+    margin-left: 120px;
+  }
+
+  .subscribe {
+    width: auto;
+    margin-left: 80px;
+  }
+
+  .form {
+    flex-direction: row;
+  }
 }

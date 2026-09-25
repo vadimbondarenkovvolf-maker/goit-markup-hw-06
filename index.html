@@ -17,9 +17,17 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header" id="header">
+    <header id="header" class="header">
       <div class="container container-header">
-      <a  href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
+      <a class="logo" href="./index.html">
+      Web<span class="accent">Studio</span>
+    </a>
+
+    <button class="menu-open-btn" type="button">
+      <svg width="24" height="24">
+        <use href="./images/icons.svg#menu"></use>
+      </svg>
+    </button>
       <nav>
         <ul class="ul-menu">
           <li>
@@ -47,14 +55,14 @@
     </header>
 
     <main>
-      <section class="hero" id="hero">
+      <section id="hero" class="hero">
         <div class="container container-hero">
         <h1 class="title">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
       </div>
     </section>
 
-      <section class="features" id="features">
+      <section id="features" class="features">
         <div class="container container-features">
         <h2 class="sr-only">Our features</h2>
         <ul class="features-ul">
@@ -110,16 +118,18 @@
       </div>
       </section>
 
-      <section class="team" id="team">
+      <section id="team" class="team">
         <div class="container container-team">
         <h2 class="title">Our Team</h2>
         <ul class="team-list">
           <li class="li">
-            <img class="team-card"
-              src="./images/team-1.jpg"
-              alt="A man of European appearance with a beard and a light blue shirt"
-              width="264"
-            />
+            <img
+  class="team-card"
+  src="./images/team-1.jpg"
+  srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
+  alt="A man of European appearance with a beard and a light blue shirt"
+  width="264"
+/>
             <div class="member-content-wrapper"> 
             <h3 class="name">Mark Guerrero</h3>
             <p class="position">Product Designer</p>
@@ -156,11 +166,13 @@
             </div>
           </li>
           <li class="li">
-            <img class="team-card"
-              src="./images/team-2.jpg"
-              alt="A man of European appearance with light eyes and a light blue shirt"
-              width="264"
-            />
+            <img
+  class="team-card"
+  src="./images/team-2.jpg"
+  srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
+  alt="A man of European appearance with light eyes and a light blue shirt"
+  width="264"
+/>
             <div class="member-content-wrapper">
             <h3 class="name">Tom Ford</h3>
             <p class="position">Frontend Developer</p>
@@ -197,11 +209,13 @@
           </div>
           </li>
           <li class="li">
-            <img class="team-card"
-              src="./images/team-3.jpg"
-              alt="A woman of European appearance with long dark hair in a pink sweater"
-              width="264"
-            />
+            <img
+  class="team-card"
+  src="./images/team-3.jpg"
+  srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
+  alt="A woman of European appearance with long dark hair in a pink sweater"
+  width="264"
+/>
             <div class="member-content-wrapper">
             <h3 class="name">Camila Garcia</h3>
             <p class="position">Marketing</p>
@@ -238,11 +252,13 @@
           </div>
           </li>
           <li class="li">
-            <img class="team-card"
-              src="./images/team-4.jpg"
-              alt="Man of European appearance in a gray T-shirt"
-              width="264"
-            />
+            <img
+  class="team-card"
+  src="./images/team-4.jpg"
+  srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
+  alt="Man of European appearance in a gray T-shirt"
+  width="264"
+/>
             <div class="member-content-wrapper">
             <h3 class="name">Daniel Wilson</h3>
             <p class="position">UI Designer</p>
@@ -282,16 +298,19 @@
       </div>
       </section>
 
-      <section class="portfolio" id="portfolio">
+      <section id="portfolio" class="portfolio">
         <div class="container container-portfolio">
         <h2 class="title">Our Portfolio</h2>
         <ul class="title-ul">
           <li class="li">
             <div class="overlay">
-            <img class="images"
-              src="./images/portfolio.jpg" 
-              alt="photo of the bank page interface" 
-              width="360" />
+            <img
+  class="images"
+  src="./images/portfolio.jpg"
+  srcset="./images/portfolio.jpg 1x, ./images/portfolio@2x.jpg 2x"
+  alt="photo of the bank page interface"
+  width="360"
+/>
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
               <div class="member-content-wrapper-p">
@@ -301,10 +320,13 @@
           </li>
           <li class="li">
             <div class="overlay">
-            <img class="images"
-              src="./images/portfolio-1.jpg" 
-              alt="photo scan of the QR code" 
-              width="360" />
+            <img
+  class="images"
+  src="./images/portfolio-1.jpg"
+  srcset="./images/portfolio-1.jpg 1x, ./images/portfolio-1@2x.jpg 2x"
+  alt="photo scan of the QR code"
+  width="360"
+/>
                 <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="member-content-wrapper-p">
@@ -314,10 +336,13 @@
           </li>
           <li class="li">
             <div class="overlay">
-            <img class="images"
-              src="./images/portfolio-2.jpg" 
-              alt="photo of account duplication on laptop and phone" 
-              width="360" />
+            <img
+  class="images"
+  src="./images/portfolio-2.jpg"
+  srcset="./images/portfolio-2.jpg 1x, ./images/portfolio-2@2x.jpg 2x"
+  alt="photo of account duplication on laptop and phone"
+  width="360"
+/>
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="member-content-wrapper-p">
@@ -327,10 +352,13 @@
           </li>
           <li class="li">
             <div class="overlay">
-            <img class="images"
-              src="./images/portfolio-3.jpg" 
-              alt="photo of a car steering wheel" 
-              width="360" />
+            <img
+  class="images"
+  src="./images/portfolio-3.jpg"
+  srcset="./images/portfolio-3.jpg 1x, ./images/portfolio-3@2x.jpg 2x"
+  alt="photo of a car steering wheel"
+  width="360"
+/>
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="member-content-wrapper-p">
@@ -340,10 +368,13 @@
           </li>
           <li class="li">
             <div class="overlay">
-            <img class="images"
-              src="./images/portfolio-4.jpg" 
-              alt="photo themes on phone" 
-              width="360" />
+            <img
+  class="images"
+  src="./images/portfolio-4.jpg"
+  srcset="./images/portfolio-4.jpg 1x, ./images/portfolio-4@2x.jpg 2x"
+  alt="photo themes on phone"
+  width="360"
+/>
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="member-content-wrapper-p">
@@ -353,10 +384,13 @@
           </li>
           <li class="li">
             <div class="overlay">
-            <img class="images"
-              src="./images/portfolio-5.jpg" 
-              alt="photo of a woman in an orange sweater, glasses and with a phone" 
-              width="360" />
+            <img
+  class="images"
+  src="./images/portfolio-5.jpg"
+  srcset="./images/portfolio-5.jpg 1x, ./images/portfolio-5@2x.jpg 2x"
+  alt="photo of a woman in an orange sweater, glasses and with a phone"
+  width="360"
+/>
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="member-content-wrapper-p">
@@ -369,7 +403,7 @@
       </section>
     </main>
 
-    <footer class="footer" id="footer">
+    <footer id="footer" class="footer">
       <div class="container container-footer">
         <div class="left">
       <a  href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
@@ -431,6 +465,87 @@
   </div>
     </footer>
     
+    <div class="mobile-menu">
+  <div class="container mobile-menu-container">
+
+    <button class="menu-close-btn" type="button">
+      <svg width="8" height="8">
+        <use href="./images/icons.svg#close"></use>
+      </svg>
+    </button>
+
+    <nav class="mobile-menu-nav">
+      <ul class="mobile-menu-list">
+        <li>
+          <a class="mobile-menu-link active" href="./index.html">
+            Studio
+          </a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="">
+            Contacts
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-menu-contacts">
+      <ul class="mobile-menu-contact-list">
+        <li>
+          <a class="mobile-menu-contact" href="tel:+110001111111">
+            +11 (000) 111-11-11
+          </a>
+        </li>
+        <li>
+          <a class="mobile-menu-contact" href="mailto:info@devstudio.com">
+            info@devstudio.com
+          </a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-social-list">
+        <li>
+          <a class="mobile-menu-social-link" href="">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="mobile-menu-social-link" href="">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="mobile-menu-social-link" href="">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="mobile-menu-social-link" href="">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
   <div id="modal" class="modal">
     <div class="modal-backdrop">
       <button class="modal-button">

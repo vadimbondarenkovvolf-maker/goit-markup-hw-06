@@ -1,4 +1,6 @@
-
+.hide {
+  display: none !important;
+}
 body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -7,36 +9,28 @@ body {
   text-decoration: none;
   
 }  
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    }
-    ul,
-    ol {
+ul,
+ol {
       margin: 0;
       padding-left: 0;
+      list-style: none;
     }
- img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  
- }
-
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 a {
   text-decoration: none;
-  
-  color: inherit;
-}
-ul {
-  list-style-type: none;
+  color: currentColor;
 }
 button {
   cursor: pointer;
+  padding: 0;
+  border: none;
 }
-.container {
-  padding: 0 15px;
-  width: 1158px;
-  margin: 0 auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .sr-only {
   position: absolute;
@@ -49,4 +43,26 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+.container {
+  padding: 0 16px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.section {
+    padding: 96px 0;
+}
+@media screen and (min-width: 768px) {
+.container {
+  max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+    .container {
+  max-width: 1158px;
+  padding: 0 15px;
+    }
+    .section {
+    padding: 120px 0;
+  }
 }
