@@ -7,7 +7,7 @@
     ),
     image-set(
       url("../images/hero-bg-mobile.jpg") 1x,
-      url("../images/hero-bg-tablet@2x\ .jpg") 2x
+      url("../images/hero-bg-tablet@2x.jpg") 2x
     );
 
   background-repeat: no-repeat;

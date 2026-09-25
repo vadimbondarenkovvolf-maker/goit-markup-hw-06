@@ -23,7 +23,7 @@
 .mobile-menu-container {
   position: relative;
   height: 100%;
-  padding-top: 24px;
+  padding-top: 72px;
   padding-bottom: 40px;
 
   display: flex;
@@ -34,7 +34,6 @@
   position: absolute;
   top: 24px;
   right: 24px;
-
   width: 24px;
   height: 24px;
   padding: 0;
